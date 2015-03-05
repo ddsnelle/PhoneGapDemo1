@@ -17,4 +17,15 @@
         Dan Snellenberger
     </author>
 
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
+	
+	<!-- PREFERENCES -->
+	<!-- http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences -->
+	<preference name="phonegap-version" value="3.6.3" />
+	
+	<-- Enable both Landscape and Portrait mode (default=both; landscape; portrait) -->
+	<preference name="orientation" value="default" />
+
 </widget>
